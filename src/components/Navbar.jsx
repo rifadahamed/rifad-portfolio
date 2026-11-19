@@ -104,9 +104,9 @@ const Navbar = () => {
           })}
 
           <a
-            href="/Rifad-Ahamed-CV.pdf"
+            href={`${import.meta.env.BASE_URL}Rifad-Ahamed-CV.pdf`}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="desktop-cv-btn"
           >
             <FiDownload />
@@ -144,8 +144,7 @@ const Navbar = () => {
         <a
           href={`${import.meta.env.BASE_URL}Rifad-Ahamed-CV.pdf`}
           target="_blank"
-          rel="noreferrer"
-          download
+          rel="noopener noreferrer"
           className="mobile-cv"
           onClick={() => setMenuOpen(false)}
         >
