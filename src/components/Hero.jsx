@@ -66,7 +66,7 @@ const Hero = () => {
 
           <div className="profile-frame">
             <img
-              src="/profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt="Rifad Ahamed"
               className="profile-image"
             />

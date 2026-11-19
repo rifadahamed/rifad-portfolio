@@ -142,7 +142,7 @@ const Navbar = () => {
         })}
 
         <a
-          href="/Rifad-Ahamed-CV.pdf"
+          href={`${import.meta.env.BASE_URL}Rifad-Ahamed-CV.pdf`}
           target="_blank"
           rel="noreferrer"
           download
